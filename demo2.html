@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Masonry Layout Vanilla</title>
+  <link rel="stylesheet" href="css/masonry-layout-vanilla.min.css" />
+  <link rel="stylesheet" href="css/example.min.css" />
+</head>
+<body>
+
+  <div id="loading">
+    <div class="icon-loading"></div>
+  </div>
+
+  <button class="btn btn--fr" onclick="fecthMasonry('masonry', 'image', 4)">4 COLS</button>
+  <button class="btn btn--fr" onclick="fecthMasonry('masonry', 'image', 3)">3 COLS</button>
+  <button class="btn btn--fr" onclick="fecthMasonry('masonry', 'image', 2)">2 COLS</button>
+  <div class="clb"></div>
+
+  <div class="wrapper-masonry">
+    <div id="masonry">
+      <img src="images/photo-1.jpeg" class="image" />
+      <img src="images/photo-2.jpeg" class="image" />
+      <img src="images/photo-3.jpeg" class="image" />
+      <img src="images/photo-4.jpeg" class="image" />
+      <img src="images/photo-5.jpeg" class="image" />
+      <img src="images/photo-6.jpeg" class="image" />
+      <img src="images/photo-7.jpeg" class="image" />
+      <img src="images/photo-8.jpeg" class="image" />
+      <img src="images/photo-9.jpeg" class="image" />
+      <img src="images/photo-10.jpeg" class="image" />
+      <img src="images/photo-11.jpeg" class="image" />
+      <img src="images/photo-12.jpeg" class="image" />
+      <img src="images/photo-13.jpeg" class="image" />
+      <img src="images/photo-14.jpeg" class="image" />
+      <img src="images/photo-15.jpeg" class="image" />
+      <img src="images/photo-16.jpeg" class="image" />
+      <img src="images/photo-17.jpeg" class="image" />
+      <img src="images/photo-18.jpeg" class="image" />
+    </div>
+  </div>
+
+  <script src="src/masonry-layout-vanilla.min.js"></script>
+  <script src="src/events.js"></script>
+  <script src="src/demo2.js"></script>
+
+</body>
+</html>
